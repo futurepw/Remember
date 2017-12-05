@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bigerdranch.android.test.other"
+    tools:showIn="@layout/app_bar_other"
+    android:baselineAligned="false"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="false"
+            app:srcCompat="@mipmap/ico_title"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V1.0"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/other_function"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="0dp"
+
+            android:paddingLeft="3dp"
+            android:paddingTop="5dp"
+            android:text=" 功能介绍"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/other_help"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:paddingLeft="3dp"
+            android:paddingTop="5dp"
+            android:text=" 帮助"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/other_contact"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+
+            android:paddingLeft="3dp"
+            android:paddingTop="5dp"
+            android:text=" 反馈"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Copyright  2017 HBTCM. All Right Reserved"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:padding="5dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.bigerdranch.android.test.management"
+    tools:showIn="@layout/app_bar_management">
+
+
+    <ScrollView
+        style="@android:style/Widget.ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pwd_textView_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    tools:ignore="InefficientWeight" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                tools:ignore="DisableBaselineAlignment,UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.38"
+                    android:orientation="vertical"
+                    tools:ignore="InefficientWeight">
+
+                    <TextView
+                        android:id="@+id/pwd_textView_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.38"
+                        android:text="@string/pwd_name"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp"
+                        tools:ignore="NestedWeights" />
+
+                    <EditText
+                        android:id="@+id/pwd_editText_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.38"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp"
+                        tools:ignore="LabelFor" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:ignore="DisableBaselineAlignment">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.38"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="InefficientWeight">
+
+                    <TextView
+                        android:id="@+id/pwd_textView_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.38"
+                        android:text="@string/pwd_username"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp"
+                        tools:ignore="DuplicateIds,NestedWeights" />
+
+                    <EditText
+                        android:id="@+id/pwd_editText_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.38"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp"
+                        tools:ignore="LabelFor" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:ignore="DisableBaselineAlignment">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.16"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    tools:ignore="InefficientWeight">
+
+                    <TextView
+                        android:id="@+id/pwd_textView_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.16"
+                        android:text="@string/pwd_pass"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp"
+                        tools:ignore="NestedWeights" />
+
+                    <EditText
+                        android:id="@+id/pwd_editText_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.16"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:textAlignment="viewStart"
+                        android:textSize="18sp"
+                        tools:ignore="LabelFor" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pwd_button_submit"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:attr/colorBackground"
+                    android:text="@string/pwd_submit"
+                    android:textSize="18sp"
+                    tools:ignore="ButtonStyle,InefficientWeight" />
+
+                <Button
+                    android:id="@+id/pwd_button_clean"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:attr/colorBackground"
+                    android:text="@string/pwd_clean"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    tools:ignore="ButtonStyle,InefficientWeight" />
+
+                <!--<Button-->
+                <!--android:id="@+id/pwd_button_createQr"-->
+                <!--style="@style/Widget.AppCompat.Button.Borderless.Colored"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="?android:attr/colorBackground"-->
+                <!--android:text="@string/pwd_createQr"-->
+                <!--android:textAlignment="center"-->
+                <!--android:textSize="18sp"-->
+                <!--tools:ignore="ButtonStyle,InefficientWeight" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pwd_button_createPassword"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.43"
+                    android:background="?android:attr/colorBackground"
+                    android:text="@string/pwe_createPassword"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    tools:ignore="ButtonStyle,InefficientWeight" />
+
+                <Button
+                    android:id="@+id/ShareToDb_button"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.43"
+                    android:background="?android:attr/colorBackground"
+                    android:text="@string/ShareToDb"
+                    android:textAlignment="center"
+                    android:textSize="18sp"
+                    tools:ignore="InefficientWeight" />
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+            <!--android:id="@+id/pwd_img"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="305dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:contentDescription=""-->
+            <!--app:srcCompat="?android:attr/colorBackground"-->
+            <!--tools:ignore="ContentDescription" />-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

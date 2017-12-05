@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/qr_code"
+        android:icon="@drawable/ic_menu_camera"
+        android:title="@string/qr_code" />
+    <item
+        android:id="@+id/password"
+        android:icon="@drawable/ic_menu_password"
+        android:title="@string/password" />
+    <item
+        android:id="@+id/management"
+        android:icon="@drawable/ic_menu_management"
+        android:title="@string/management" />
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/ic_menu_other"
+        android:title="@string/other" />
+</group>
+
+</menu>

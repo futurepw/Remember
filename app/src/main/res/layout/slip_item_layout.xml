@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bigerdranch.android.test.setting.SwipeListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sll_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_see"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="#FFF5EE"
+            android:gravity="center"
+            android:text="@string/tv_see" />
+
+        <TextView
+            android:id="@+id/tv_share"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="#63B8FF"
+            android:gravity="center"
+            android:text="@string/tv_share" />
+
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="#EE799F"
+            android:gravity="center"
+            android:text="@string/tv_edit" />
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:text="@string/tv_delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="#66ffffff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            tools:ignore="DisableBaselineAlignment">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                tools:ignore="InefficientWeight,UselessParent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:contentDescription=""
+                    android:src="@mipmap/ico_title"
+                    tools:ignore="ContentDescription,InefficientWeight,NestedWeights" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:ignore="UselessParent"
+                android:padding="10dp"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+                        <ImageView
+                            android:id="@+id/imageView9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/ic_name"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/textView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/pwd_name"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAlignment="viewStart"
+                            android:textSize="14sp"
+                            tools:ignore="HardcodedText,NestedWeights" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables,UselessLeaf">
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            app:srcCompat="@drawable/ic_user"
+                            tools:ignore="ContentDescription" />
+
+                        <TextView
+                            android:id="@+id/textView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:text="@string/pwd_username"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_username"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:textAlignment="viewStart"
+                            android:textSize="14sp"
+                            tools:ignore="HardcodedText" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--tools:ignore="UseCompoundDrawables,UselessLeaf">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--app:srcCompat="@drawable/ic_menu_password"-->
+                    <!--tools:ignore="ContentDescription" />-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_password"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1.00"-->
+                    <!--android:textAlignment="viewStart"-->
+                    <!--android:textSize="18sp"-->
+                    <!--tools:ignore="HardcodedText" />-->
+            <!--</LinearLayout>-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+</com.bigerdranch.android.test.setting.SwipeListView>

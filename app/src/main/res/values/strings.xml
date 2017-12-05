@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="title_activity_management">管理密码</string>
+    <string name="title_activity_other">关于软件</string>
+    <string name="title_activity_password">查看密码</string>
+    <string name="apk_name">密码管理器</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="qr_code">二维码</string>
+    <string name="password">密码</string>
+    <string name="other">其他</string>
+    <string name="management">管理</string>
+    <string name="btnSan">扫描</string>
+    <string name="btn_generate">生成</string>
+    <string name="bt_switch">闪光灯</string>
+    <string name="pwd_name">名称：</string>
+    <string name="pwd_title">管理</string>
+    <string name="pwd_pass">密码：</string>
+    <string name="submit_password_edit_update">更新</string>
+    <string name="pwd_submit">提交保存</string>
+    <string name="pwd_createQr">生成QR</string>
+    <string name="pwd_clean">取消重置</string>
+    <string name="qr_name"></string>
+    <string name="pwd_username">账号：</string>
+    <string name="pwe_createPassword">生成密码</string>
+    <string name="cancal">取消</string>
+    <string name="tv_delete">删除</string>
+    <string name="tv_edit">编辑</string>
+    <string name="tv_see">查看</string>
+    <string name="tv_share">分享</string>
+    <string name="ShareToDb">扫描导入</string>
+    <string name="edit_password_title">编辑信息</string>
+    <string name="main_scanResult">扫描结果：</string>
+    <string name="main_inputCreate">输入生成：</string>
+    <string name="passwordShow_title">密码详细信息</string>
+    <string name="passwordShow">显示密码</string>
+    <string name="createPassword_tv_title">生成密码</string>
+    <string name="createPassword_tv_long">密码长度：</string>
+    <string name="Uppercase">大写字母</string>
+    <string name="lowerCase">小写字母</string>
+    <string name="digital">数字</string>
+    <string name="specialChar">特殊字符</string>
+    <string name="determine">确定</string>
+
+
+</resources>

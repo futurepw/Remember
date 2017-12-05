@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bigerdranch.android.test.settings"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="30sp"
+            tools:ignore="InefficientWeight" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="157dp"
+            android:layout_height="37dp"
+            android:text="允许截屏"
+            tools:ignore="HardcodedText,InefficientWeight,NestedWeights" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="158dp"
+            android:layout_height="37dp"
+            android:text="消息通知"
+            tools:ignore="HardcodedText,InefficientWeight" />
+
+    </LinearLayout>
+</LinearLayout>
