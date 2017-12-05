@@ -8,6 +8,12 @@
 * 根据要求生成密码
 * 自定义扫描页面
 
+## 依赖
+* 基于zxing进行的二维码扫描
+* 基于SwipeListView进行的ListView侧滑菜单实现
+* 基于随机数的密码生成
+* 基于AES（Advanced Encryption Standard）进行加密二维码
+
 ***
 # 页面展示
 
